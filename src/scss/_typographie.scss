@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+
+:root {
+  --ff-s: "Public Sans", sans-serif;
+
+  --fs-h1: calc(2.375rem + 0.9vw);
+  --fs-h2: 2rem;
+  --fs-h3: 1.3rem;
+  --fs-body: 1.125rem;
+  --fs-body-2: 0.875rem;
+}
+
+h1 {
+  font: 300 var(--fs-h1) var(--ff-s);
+  letter-spacing: -0.0167rem;
+  padding-bottom: 1.67rem;
+  color: var(--dark-blue);
+}
+
+h2 {
+  font: 300 var(--fs-h2) var(--ff-s);
+  letter-spacing: -0.0167rem;
+  padding-bottom: 1.76rem;
+  color: var(--dark-blue);
+}
+
+h3 {
+  font: 300 var(--fs-h3) var(--ff-s);
+  letter-spacing: -0.0167rem;
+  padding-bottom: 0.99rem;
+  color: var(--dark-blue);
+}
+
+p {
+  font: 400 var(--fs-body) var(--ff-s);
+  line-height: 1.67rem;
+  letter-spacing: -0.0367rem;
+  color: var(--grayish-blue);
+  padding-bottom: 2.67rem;
+}
